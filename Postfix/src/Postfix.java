@@ -1,9 +1,9 @@
- /* ----------------------------------------
-   Polish Notation (Postfix Notation) Solver
-   ----------------------------------------
-   Author: Daniel J. Stout II
-   Date: 3/17/2020
-   ----------------------------------------
+ /* -----------------------------------------
+    Polish Notation (Postfix Notation) Solver
+    -----------------------------------------
+    Author: Daniel J. Stout II
+    Date: 3/17/2020
+    -----------------------------------------
  */
 
 import java.io.*;
@@ -50,7 +50,6 @@ public class Postfix {
                 }
             }
         }
-
         return Integer.parseInt(arrayList.get(0));
     }
 }
